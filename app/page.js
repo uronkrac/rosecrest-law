@@ -28,7 +28,7 @@ export default function Home() {
             <a href="#newsletter">Insights</a>
             <a href="#footer">About</a>
           </div>
-          <a href="https://calendly.com/trey-jones/rosecrest-law-consultation" target="_blank" className={styles.navCta}>Book a Consultation →</a>
+          <a href="https://calendly.com/rosecrestlaw/rosecrest-law-consultation" target="_blank" className={styles.navCta}>Book a Consultation →</a>
         </div>
       </nav>
 
@@ -45,7 +45,7 @@ export default function Home() {
               Attorney-led contract review, negotiation, and outside-GC support — enhanced by AI-native workflows and 16 years of practical business judgment.
             </p>
             <div className={styles.heroBtns}>
-              <a href="https://calendly.com/trey-jones/rosecrest-law-consultation" target="_blank" className={styles.btnDark}>Book a Consultation →</a>
+              <a href="https://calendly.com/rosecrestlaw/rosecrest-law-consultation" target="_blank" className={styles.btnDark}>Book a Consultation →</a>
               <a href="#clarioso" className={styles.btnGhost}>Explore Clarioso</a>
             </div>
           </div>
