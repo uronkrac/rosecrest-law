@@ -187,13 +187,13 @@ export default function Home() {
               <div className={styles.productTag}>Contract Intelligence</div>
               <div className={styles.productName}>Clarioso</div>
               <div className={styles.productDesc}>Upload a contract. Get a scored risk analysis in plain language, flagged clauses, and market-standard alternatives — before you talk to an attorney.</div>
-              <a href="https://clarioso.rosecrestlaw.com" className={styles.productLink}>clarioso.rosecrestlaw.com →</a>
+              <a href="https://clarioso.com" className={styles.productLink}>clarioso.com →</a>
             </div>
             <div id="jorja" className={styles.product}>
-              <div className={styles.productTag}>Legal Workflow Automation</div>
+              <div className={styles.productTag}>Intelligent Intake</div>
               <div className={styles.productName}>Jorja</div>
-              <div className={styles.productDesc}>Questionnaire automation, DocuSign routing aligned to your signatory authority policy, and contract review with clause flagging.</div>
-              <a href="https://jorja.rosecrestlaw.com" className={styles.productLink}>jorja.rosecrestlaw.com →</a>
+              <div className={styles.productDesc}>Tell us what you're working on and we'll point you in the right direction. Jorja qualifies your need and routes you to the right solution — self-serve contract intelligence or direct attorney engagement.</div>
+              <a href="https://jorja-mvp-five.vercel.app/intake" className={styles.productLink}>Talk to Jorja →</a>
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="footer" className={styles.footer}>
         <div className={styles.footerBottomInner}>
-          <span className={styles.footerNote}>© 2025 Rosecrest Law PLLC · Pennsylvania · AI-Native Commercial Legal</span>
+          <span className={styles.footerNote}>© 2026 Rosecrest Law PLLC · Pennsylvania · AI-Native Commercial Legal</span>
           <a href="mailto:hello@rosecrestlaw.com" className={styles.footerEmail}>hello@rosecrestlaw.com</a>
         </div>
       </footer>
