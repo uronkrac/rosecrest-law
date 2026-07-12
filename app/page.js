@@ -24,7 +24,6 @@ export default function Home() {
           <div className={styles.navLinks}>
             <a href="#services">Services</a>
             <a href="#clarioso">Clarioso</a>
-            <a href="#jorja">Jorja</a>
             <a href="#newsletter">Insights</a>
             <a href="#footer">About</a>
           </div>
@@ -189,12 +188,6 @@ export default function Home() {
               <div className={styles.productDesc}>Upload a contract. Get a scored risk analysis in plain language, flagged clauses, and market-standard alternatives — before you talk to an attorney.</div>
               <a href="https://clarioso.com" className={styles.productLink}>clarioso.com →</a>
             </div>
-            <div id="jorja" className={styles.product}>
-              <div className={styles.productTag}>Intelligent Intake</div>
-              <div className={styles.productName}>Jorja</div>
-              <div className={styles.productDesc}>Tell us what you're working on and we'll point you in the right direction. Jorja qualifies your need and routes you to the right solution — self-serve contract intelligence or direct attorney engagement.</div>
-              <a href="https://jorja-mvp-five.vercel.app/intake" className={styles.productLink}>Talk to Jorja →</a>
-            </div>
           </div>
         </div>
       </section>
@@ -227,6 +220,29 @@ export default function Home() {
           <a href="mailto:hello@rosecrestlaw.com" className={styles.footerEmail}>hello@rosecrestlaw.com</a>
         </div>
       </footer>
+
+      {/* FLOATING CHAT LAUNCHER */}
+      <a
+        href="https://jorja-mvp-five.vercel.app/intake"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'fixed',
+          bottom: '24px',
+          right: '24px',
+          zIndex: 9999,
+          background: '#111827',
+          color: '#fff',
+          padding: '12px 20px',
+          borderRadius: '9999px',
+          fontSize: '14px',
+          fontWeight: 600,
+          textDecoration: 'none',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+        }}
+      >
+        Need help? Talk to Jorja →
+      </a>
     </main>
   )
 }
