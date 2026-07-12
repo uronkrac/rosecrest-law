@@ -448,7 +448,8 @@
 /* PRODUCTS */
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: calc(50% - 10px);
+  justify-content: center;
   gap: 20px;
 }
 
