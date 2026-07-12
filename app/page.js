@@ -45,7 +45,7 @@ export default function Home() {
             </p>
             <div className={styles.heroBtns}>
               <a href="https://calendly.com/rosecrestlaw/rosecrest-law-consultation" target="_blank" className={styles.btnDark}>Book a Consultation →</a>
-              <a href="#clarioso" className={styles.btnGhost}>Explore Clarioso</a>
+              <a href="https://clarioso.com" target="_blank" rel="noopener noreferrer" className={styles.btnGhost}>Explore Clarioso</a>
             </div>
           </div>
 
