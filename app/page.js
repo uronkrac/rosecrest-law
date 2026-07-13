@@ -216,7 +216,10 @@ export default function Home() {
       {/* FOOTER */}
       <footer id="footer" className={styles.footer}>
         <div className={styles.footerBottomInner}>
-          <span className={styles.footerNote}>© 2026 Rosecrest Law PLLC · Pennsylvania · AI-Native Commercial Legal</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
+            <span className={styles.footerNote}>© 2026 Rosecrest Law PLLC · Pennsylvania · AI-Native Commercial Legal</span>
+            <a href="/privacy" className={styles.footerEmail}>Privacy Policy</a>
+          </div>
           <a href="mailto:hello@rosecrestlaw.com" className={styles.footerEmail}>hello@rosecrestlaw.com</a>
         </div>
       </footer>
